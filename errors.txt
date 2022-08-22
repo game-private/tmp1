@@ -2,46 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/0-Памятка.rpy", line 47: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    """
-    Чтобы добавить изображения нужно поместить их в директорию images
-    Можно поименовать изображения так, чтобы они сами подхватывались из изображений
-    Для этого изображение начинается с тега, например, "bg room.jpg"
-                                                           ^
-    bg - это тег, который используется для фоновых изображений
-    В качестве тега может быть использовано имя героя
-    Изображения могу иметь расширения jpg, png, webp (возможно, и какие-то другие)
-    """
-
-File "game/0-Памятка.rpy", line 56: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    """
-    Оператор scene очищает экран, начиная новую сцену
-    scene bg room - выведет bg room в качестве фона
-    
-    Оператор show добавит новое изображение поверх тех, что уже есть на экране
-    show hero main
-    Изображение на экране с тем же тегом заменит другое того же тега
-    show hero next (то есть "hero main" будет сокрыт, а вместо него будет "hero next")
-                                    ^
-    
-    show hero main at right
-    Можно указать, где именно будет выведено изображение (right, left, center)
-    show hero main at right behind hero2
-    behind - означает, что изображение будет под изображением hero2
-    
-    hide hero
-    Скрывает изображение с указанным тегом
-    
-    Это задаёт позицию изображения
-    show eileen happy:
-        xalign 0.75
-        yalign 1.0
-    
-        xalign 0.0 - левая сторона экрана (левый край изображения прижат к левому краю экрана)
-        1.0 - правая сторона (правый край изображения прижат к правому краю экрана)
-    """
+File "game/script.rpy", line 44: expected menuitem
+    $ name:
+    ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Mon Aug 22 11:38:06 2022
+Mon Aug 22 12:42:52 2022

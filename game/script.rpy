@@ -35,4 +35,14 @@ label start:
  
     show hero main at CT
 
+    python:
+        name = renpy.input("Как вас зовут?")
+
+        name = name.strip() or "Товарищ"
+
+    $ color = '#FF0000'
+    menu:
+        "AAA {color=[color]}[name]{/color}":
+            pass
+
     return
