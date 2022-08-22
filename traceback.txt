@@ -1,0 +1,46 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/0-памятка экраны.rpy", line 537, in prepare_screen
+  File "game/0-памятка экраны.rpy", line 537, in prepare
+  File "game/0-памятка экраны.rpy", line 538, in prepare
+  File "game/0-памятка экраны.rpy", line 538, in prepare
+  File "game/0-памятка экраны.rpy", line 547, in prepare
+  File "game/0-памятка экраны.rpy", line 547, in prepare
+  File "game/0-памятка экраны.rpy", line 547, in <module>
+  File "renpy/common/00preferences.rpy", line 570, in Preference
+    rv = get()
+  File "renpy/common/00preferences.rpy", line 568, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference('громкость музыки', None) is unknown.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/home/vinny/Renpy/1/renpy-8.0.2-sdk/renpy/bootstrap.py", line 274, in bootstrap
+    renpy.main.main()
+  File "/home/vinny/Renpy/1/renpy-8.0.2-sdk/renpy/main.py", line 660, in main
+    run(restart)
+  File "/home/vinny/Renpy/1/renpy-8.0.2-sdk/renpy/main.py", line 95, in run
+    renpy.display.screen.prepare_screens()
+  File "/home/vinny/Renpy/1/renpy-8.0.2-sdk/renpy/display/screen.py", line 976, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/0-памятка экраны.rpy", line 537, in prepare_screen
+  File "game/0-памятка экраны.rpy", line 537, in prepare
+  File "game/0-памятка экраны.rpy", line 538, in prepare
+  File "game/0-памятка экраны.rpy", line 538, in prepare
+  File "game/0-памятка экраны.rpy", line 547, in prepare
+  File "game/0-памятка экраны.rpy", line 547, in prepare
+  File "/home/vinny/Renpy/1/renpy-8.0.2-sdk/renpy/python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/0-памятка экраны.rpy", line 547, in <module>
+  File "renpy/common/00preferences.rpy", line 570, in Preference
+    rv = get()
+  File "renpy/common/00preferences.rpy", line 568, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference('громкость музыки', None) is unknown.
+
+Linux-5.4.0-124-generic-x86_64-with-glibc2.31 x86_64
+Ren'Py 8.0.2.22081402
+tmp1 1.0
+Mon Aug 22 19:24:30 2022

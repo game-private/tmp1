@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 44: expected menuitem
-    $ name:
-    ^
+File "game/0-памятка экраны.rpy", line 270: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    linear 1.0 rotate 0
+               ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Mon Aug 22 12:42:52 2022
+Mon Aug 22 19:22:43 2022

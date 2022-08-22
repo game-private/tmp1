@@ -1,3 +1,9 @@
+# https://crypko.ai
+# https://avatarcreatoronline.com/
+# https://github.com/ShatReal/sutemo
+# https://v-ktor.itch.io/pixel-art-portrait-generator
+
+
 # http://www.makehumancommunity.org/content/makehuman_120.html
 # Make human
 

@@ -7,6 +7,10 @@
 # По-умолчанию скрипт выглядит примерно так:
 
 # Определение персонажей игры.
+from mimetypes import init
+from tkinter import Image
+
+
 define e = Character('Эйлин', color="#c8ffc8")
 
 # Вместо использования оператора image можете просто
@@ -33,6 +37,13 @@ label start:
 
 # Оператор return уводит игру из этого скрипта в главное меню
 
+Также есть секция init
+Например,
+init:
+    image = "src/img.jpg"
+либо
+init python:
+    ...
 
 # В файле
 # options.rpy
