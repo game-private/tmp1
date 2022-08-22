@@ -19,6 +19,20 @@ label start:
 
     e "Добавьте сюжет, изображения и музыку и отправьте её в мир!"
 
+    show eileen happy:
+        xalign 0.0
+        yalign 1.0
+
+    show hero main:
+        xalign 1.0
+        yalign 1.0
+
     "Незнакомец" "\"AAA\""
+
+    transform CT:
+        xalign 0.25
+        yalign 0.5
+ 
+    show hero main at CT
 
     return
